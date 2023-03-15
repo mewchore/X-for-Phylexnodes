@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-NEZHA_SERVER=probe.nezha.org
-NEZHA_PORT=5555
-NEZHA_KEY=p2RYaBPrCEiFro7W0Y
+WSPATH=${WSPATH:-'gee'}
+UUID=${UUID:-'ddddadd9-5c68-8bab-950c-08cd5320df18'}
 
 generate_config() {
   cat > config.json << EOF
