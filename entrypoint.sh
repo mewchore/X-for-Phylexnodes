@@ -191,11 +191,6 @@ generate_config() {
     ]
 }
 EOF
-}
-
-  cat list
-fi
-}
 check_file
 run
 wait
